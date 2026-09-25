@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="XA AJEET — Creative resources, packs, presets, apps, photos and more.">
+  <title>XA AJEET</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <a class="logo" href="#"><span>XA</span> AJEET</a>
+  <nav><a href="#resources">Resources</a><a href="#about">About</a></nav>
+</header>
+
+<section class="hero">
+  <div class="hero-copy">
+    <div class="tag">XA AJEET • RESOURCE HUB</div>
+    <h1>Everything creators<br><span>need, in one place.</span></h1>
+    <p>Presets, XMP, CC, packs, apps, photos, videos and useful resources — all organized in one clean website.</p>
+    <a class="hero-btn" href="#resources">Explore Resources ↓</a>
+  </div>
+  <div class="hero-mark"><strong>XA</strong><small>AJEET</small></div>
+</section>
+
+<main id="resources">
+  <section class="library">
+    <div class="heading-row">
+      <div><div class="tag">LIBRARY</div><h2>Resources</h2></div>
+      <input id="search" type="search" placeholder="Search resources...">
+    </div>
+
+    <div class="filters">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="xmp">XMP</button>
+      <button data-filter="cc">CC</button>
+      <button data-filter="packs">Packs</button>
+      <button data-filter="apps">Apps</button>
+      <button data-filter="photos">Photos</button>
+      <button data-filter="videos">Videos</button>
+    </div>
+
+    <div id="resourceGrid" class="grid"></div>
+    <div id="noResults" class="no-results">No resources found.</div>
+  </section>
+</main>
+
+<section id="about" class="about">
+  <div class="tag">ABOUT</div>
+  <h2>XA AJEET</h2>
+  <p>A public resource hub made for creators. Add your own resources, links, packs and downloads whenever you want.</p>
+</section>
+
+<footer>© 2026 XA AJEET</footer>
+<script src="script.js"></script>
+</body>
+</html>
